@@ -40,7 +40,4 @@ class FinalVC: UIViewController {
     @IBAction func onCloseTapped(_ sender: Any) {
         dismiss(animated: true)
     }
-    
-    
-
 }
