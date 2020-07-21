@@ -126,6 +126,7 @@
                                         </state>
                                         <connections>
                                             <action selector="getStartedBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gnF-Bb-iaY"/>
+                                            <action selector="onMensTapped:" destination="xpr-Of-ysM" eventType="touchUpInside" id="JAW-ga-GTp"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4R-nX-fvn" customClass="CustomBorderButton" customModule="Swoosh" customModuleProvider="target">
@@ -137,6 +138,7 @@
                                         </state>
                                         <connections>
                                             <action selector="getStartedBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNZ-lw-Ra9"/>
+                                            <action selector="onWomensTapped:" destination="xpr-Of-ysM" eventType="touchUpInside" id="lhm-2y-u6C"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SS4-8k-ZpZ" customClass="CustomBorderButton" customModule="Swoosh" customModuleProvider="target">
@@ -148,6 +150,7 @@
                                         </state>
                                         <connections>
                                             <action selector="getStartedBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xfz-CT-3yd"/>
+                                            <action selector="onCoEdTapped:" destination="xpr-Of-ysM" eventType="touchUpInside" id="Ybm-JE-Dxb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -196,6 +199,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="bc1-3H-KvG"/>
                     <connections>
+                        <outlet property="nextBtn" destination="6Kd-4t-Oii" id="bcp-6r-Don"/>
                         <segue destination="KUn-Nc-cKS" kind="presentation" identifier="skillVCSegue" modalPresentationStyle="fullScreen" id="Ckb-8v-nKj"/>
                     </connections>
                 </viewController>

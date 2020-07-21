@@ -16,6 +16,7 @@
 		803ADC9E24C68BF40061B405 /* CustomBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADC9D24C68BF40061B405 /* CustomBorderButton.swift */; };
 		803ADCA424C6BB010061B405 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA324C6BB010061B405 /* SkillVC.swift */; };
 		803ADCA624C6BDB80061B405 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA524C6BDB80061B405 /* LeagueVC.swift */; };
+		803ADCA824C6C1D30061B405 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA724C6C1D30061B405 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		803ADC9D24C68BF40061B405 /* CustomBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBorderButton.swift; sourceTree = "<group>"; };
 		803ADCA324C6BB010061B405 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		803ADCA524C6BDB80061B405 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		803ADCA724C6C1D30061B405 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				803ADC8C24C6824F0061B405 /* WelcomeVC.swift */,
-				803ADCA324C6BB010061B405 /* SkillVC.swift */,
 				803ADCA524C6BDB80061B405 /* LeagueVC.swift */,
+				803ADCA324C6BB010061B405 /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +98,7 @@
 		803ADCA024C6B9C90061B405 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				803ADCA724C6C1D30061B405 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				803ADC8B24C6824F0061B405 /* SceneDelegate.swift in Sources */,
 				803ADCA424C6BB010061B405 /* SkillVC.swift in Sources */,
 				803ADCA624C6BDB80061B405 /* LeagueVC.swift in Sources */,
+				803ADCA824C6C1D30061B405 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
