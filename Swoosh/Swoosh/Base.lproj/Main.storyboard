@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,7 @@
                                 </state>
                                 <connections>
                                     <action selector="getStartedBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3H3-pg-RZv"/>
+                                    <segue destination="xpr-Of-ysM" kind="presentation" modalPresentationStyle="fullScreen" id="TXi-Kx-5Dg"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Wss-1m-UaX">
@@ -82,15 +83,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="U3i-Fn-Vzs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="84" y="106.59670164917542"/>
+            <point key="canvasLocation" x="-17" y="107"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="VMa-Qc-U2a">
             <objects>
-                <viewController id="xpr-Of-ysM" sceneMemberID="viewController">
+                <viewController id="xpr-Of-ysM" customClass="LeagueVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lpf-ms-TsW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,6 +163,14 @@
                                     <action selector="getStartedBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qn-Jr-y6W"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoh-zU-Wzz">
+                                <rect key="frame" x="20" y="30" width="29" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5sQ-mz-G27"/>
+                                    <constraint firstAttribute="width" constant="29" id="P2P-YK-ZLq"/>
+                                </constraints>
+                                <state key="normal" image="backButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -170,6 +180,7 @@
                             <constraint firstItem="lSH-dg-3uu" firstAttribute="leading" secondItem="k7V-ts-FDU" secondAttribute="leading" id="7Bg-HZ-EHr"/>
                             <constraint firstItem="k7V-ts-FDU" firstAttribute="trailing" secondItem="lSH-dg-3uu" secondAttribute="trailing" id="HTp-Gr-VeI"/>
                             <constraint firstItem="k7V-ts-FDU" firstAttribute="trailing" secondItem="fUW-m6-omT" secondAttribute="trailing" id="Ief-HT-A1p"/>
+                            <constraint firstItem="yoh-zU-Wzz" firstAttribute="leading" secondItem="k7V-ts-FDU" secondAttribute="leading" constant="20" id="JO8-AD-1BM"/>
                             <constraint firstItem="fUW-m6-omT" firstAttribute="leading" secondItem="k7V-ts-FDU" secondAttribute="leading" id="OUj-Ad-GnG"/>
                             <constraint firstItem="6Kd-4t-Oii" firstAttribute="leading" secondItem="k7V-ts-FDU" secondAttribute="leading" constant="20" id="QKx-Mh-K0p"/>
                             <constraint firstItem="fUW-m6-omT" firstAttribute="top" secondItem="k7V-ts-FDU" secondAttribute="top" id="YSL-Bd-jts"/>
@@ -178,18 +189,20 @@
                             <constraint firstItem="k7V-ts-FDU" firstAttribute="bottom" secondItem="6Kd-4t-Oii" secondAttribute="bottom" constant="50" id="lQ2-d5-KXx"/>
                             <constraint firstItem="lSH-dg-3uu" firstAttribute="top" secondItem="k7V-ts-FDU" secondAttribute="top" constant="40" id="p2X-61-8BK"/>
                             <constraint firstItem="CCd-x9-jse" firstAttribute="top" secondItem="lSH-dg-3uu" secondAttribute="bottom" constant="70" id="qxQ-aL-BId"/>
+                            <constraint firstItem="yoh-zU-Wzz" firstAttribute="top" secondItem="k7V-ts-FDU" secondAttribute="top" constant="30" id="xGB-Gh-dBP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="k7V-ts-FDU"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bc1-3H-KvG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qa-ls-fNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="758" y="107"/>
+            <point key="canvasLocation" x="718" y="107"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="7pv-Lc-wlV">
             <objects>
-                <viewController id="KUn-Nc-cKS" sceneMemberID="viewController">
+                <viewController id="KUn-Nc-cKS" customClass="SkillVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O60-Xw-BPG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,6 +290,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backButton" width="29" height="24"/>
         <image name="beginnerBallerBG" width="414" height="736"/>
         <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>

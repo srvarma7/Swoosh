@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeVC.swift
 //  Swoosh
 //
 //  Created by Sai Raghu Varma Kallepalli on 21/7/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +18,8 @@ class ViewController: UIViewController {
     @IBAction func getStartedBtnTapped(_ sender: Any) {
     }
     
+    @IBAction func unwindActionBtn(unwindSegue: UIStoryboardSegue) {
+        
+    }
 }
 
