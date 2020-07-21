@@ -29,15 +29,15 @@ class LeagueVC: UIViewController {
 
     // MARK: - Category selection
     @IBAction func onMensTapped(_ sender: Any) {
-        selectLeague(league: "mens")
+        selectLeague(league: "Mens")
     }
     
     @IBAction func onWomensTapped(_ sender: Any) {
-        selectLeague(league: "womens")
+        selectLeague(league: "Womens")
     }
     
     @IBAction func onCoEdTapped(_ sender: Any) {
-        selectLeague(league: "coed")
+        selectLeague(league: "Co-Ed")
     }
     
     func selectLeague(league: String) {
@@ -55,6 +55,10 @@ class LeagueVC: UIViewController {
         if let skillVC = segue.destination as? SkillVC {
             skillVC.player = player
         }
+    }
+    
+    @IBAction func unwindActionBtn(unwindSegue: UIStoryboardSegue) {
+        
     }
     
 

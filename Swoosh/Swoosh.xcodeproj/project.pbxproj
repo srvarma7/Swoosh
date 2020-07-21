@@ -17,6 +17,8 @@
 		803ADCA424C6BB010061B405 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA324C6BB010061B405 /* SkillVC.swift */; };
 		803ADCA624C6BDB80061B405 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA524C6BDB80061B405 /* LeagueVC.swift */; };
 		803ADCA824C6C1D30061B405 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA724C6C1D30061B405 /* Player.swift */; };
+		803ADCAA24C6CE010061B405 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCA924C6CE010061B405 /* CustomImageView.swift */; };
+		803ADCAC24C6D0EE0061B405 /* FinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803ADCAB24C6D0EE0061B405 /* FinalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		803ADCA324C6BB010061B405 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		803ADCA524C6BDB80061B405 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		803ADCA724C6C1D30061B405 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		803ADCA924C6CE010061B405 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		803ADCAB24C6D0EE0061B405 /* FinalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				803ADC9D24C68BF40061B405 /* CustomBorderButton.swift */,
+				803ADCA924C6CE010061B405 /* CustomImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				803ADC8C24C6824F0061B405 /* WelcomeVC.swift */,
 				803ADCA524C6BDB80061B405 /* LeagueVC.swift */,
 				803ADCA324C6BB010061B405 /* SkillVC.swift */,
+				803ADCAB24C6D0EE0061B405 /* FinalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +182,8 @@
 			files = (
 				803ADC9E24C68BF40061B405 /* CustomBorderButton.swift in Sources */,
 				803ADC8D24C6824F0061B405 /* WelcomeVC.swift in Sources */,
+				803ADCAC24C6D0EE0061B405 /* FinalVC.swift in Sources */,
+				803ADCAA24C6CE010061B405 /* CustomImageView.swift in Sources */,
 				803ADC8924C6824F0061B405 /* AppDelegate.swift in Sources */,
 				803ADC8B24C6824F0061B405 /* SceneDelegate.swift in Sources */,
 				803ADCA424C6BB010061B405 /* SkillVC.swift in Sources */,
